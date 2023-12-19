@@ -1,0 +1,37 @@
+:root {
+  --color1: whitesmoke;
+  --color2: rgb(239, 240, 243);
+  --color3: #202020;
+  --color4: rgba(40, 40, 145, 0.138);
+  --color5: rgb(6, 167, 76);
+}
+
+body {
+  background-color: var(--color1);
+  display: flax;
+}
+
+.container {
+  background-color: var(--color2);
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+  color: var(--color3);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.container input {
+  margin: auto;
+  border-radius: 4px;
+  background-color: var(--color4);
+  height: 40px;
+  font-size: 16px;
+}
+
+#usdPrice {
+  color: var(--color1);
+  background-color: var(--color5);
+  padding: 6px;
+  border-radius: 4px;
+}
