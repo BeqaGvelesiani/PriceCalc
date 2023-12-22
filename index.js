@@ -3,6 +3,7 @@ let usa2georgia = Number(document.getElementById("usa2georgia").innerText);
 let price = Number(document.getElementById("price").value);
 let shippingWeight = Number(document.getElementById("shippingWeight").value);
 
+
 document.getElementById("price").addEventListener("keyup", () => {
   console.log("boom1");
   calc();
